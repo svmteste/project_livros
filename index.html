@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cadastro de Livros - IFNMG</h1>
+    <form id="formLivro">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" required>
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" required>
+        <button type="submit">Adicionar Livro</button>
+    </form>
+    <div id="listaLivros">
+        <h2>Lista de Livros</h2>
+        <ul id="livros"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
